@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bot-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: bot-app
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: bot-app
+    spec:
+      serviceAccountName: builder-docker
+      containers:
+      - name: bot-container
+        image: ethik69/bot_discord:latest
+        imagePullPolicy: Always

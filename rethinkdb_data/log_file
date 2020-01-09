@@ -1,0 +1,413 @@
+2019-11-20T19:38:46.468565000 0.023488s notice: Recursively removing directory /Users/ethanchamik/Magic/Perso/Magie/bot_discord/rethinkdb_data/tmp
+2019-11-20T19:38:46.470607000 0.025536s notice: Initializing directory /Users/ethanchamik/Magic/Perso/Magie/bot_discord/rethinkdb_data
+2019-11-20T19:38:46.470762000 0.025684s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/ethanchamik/Magic/Perso/Magie/bot_discord/rethinkdb_data' did not already exist or is empty.)
+2019-11-20T19:38:46.470905000 0.025827s notice: Running rethinkdb 2.3.6 (CLANG 11.0.0 (clang-1100.0.33.8))...
+2019-11-20T19:38:46.477577000 0.032500s notice: Running on Darwin 19.0.0 x86_64
+2019-11-20T19:38:46.477624000 0.032546s notice: Loading data from directory /Users/ethanchamik/Magic/Perso/Magie/bot_discord/rethinkdb_data
+2019-11-20T19:38:46.545906000 0.100826s info: Automatically using cache size of 1168 MB
+2019-11-20T19:38:46.546591000 0.101511s notice: Listening for intracluster connections on port 29015
+2019-11-20T19:38:46.547816000 0.102736s notice: Listening for client driver connections on port 28015
+2019-11-20T19:38:46.547909000 0.102828s notice: Listening for administrative HTTP connections on port 8080
+2019-11-20T19:38:46.547912000 0.102831s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2019-11-20T19:38:46.547917000 0.102837s notice: Listening on driver addresses: 127.0.0.1, ::1
+2019-11-20T19:38:46.547919000 0.102838s notice: Listening on http addresses: 127.0.0.1, ::1
+2019-11-20T19:38:46.547922000 0.102842s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-11-20T19:38:46.547926000 0.102845s notice: Server ready, "ethans_mbp_home_v46" f0437e91-f915-41b3-8623-d7a58a5b3aed
+2019-11-20T19:38:47.432221000 0.987115s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2019-11-20T19:38:50.008638000 3.563455s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: Starting a new Raft election for term 1.
+2019-11-20T19:38:50.008780000 3.563596s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: Added replica on this server.
+2019-11-20T19:38:50.025079000 3.579895s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: This server is Raft leader for term 1. Latest log index is 0.
+2019-11-20T19:38:50.640911000 4.195709s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: Starting a new Raft election for term 1.
+2019-11-20T19:38:50.641084000 4.195882s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: Added replica on this server.
+2019-11-20T19:38:50.658001000 4.212799s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: This server is Raft leader for term 1. Latest log index is 0.
+2019-11-20T23:34:35.696496000 12485.739952s notice: Server got SIGINT from pid 278, uid 501; shutting down...
+2019-11-20T23:34:35.696607000 12485.740063s notice: Shutting down client connections...
+2019-11-20T23:34:35.707331000 12485.750787s notice: All client connections closed.
+2019-11-20T23:34:35.707355000 12485.750811s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2019-11-20T23:34:35.719451000 12485.762907s notice: Storage engine shut down.
+2019-11-21T18:40:15.267884000 0.052166s notice: Running rethinkdb 2.3.6 (CLANG 11.0.0 (clang-1100.0.33.8))...
+2019-11-21T18:40:15.276832000 0.061107s notice: Running on Darwin 19.0.0 x86_64
+2019-11-21T18:40:15.276883000 0.061157s notice: Loading data from directory /Users/ethanchamik/Magic/Perso/Magie/bot_discord/rethinkdb_data
+2019-11-21T18:40:15.322198000 0.106472s info: Automatically using cache size of 3394 MB
+2019-11-21T18:40:15.324440000 0.108715s notice: Listening for intracluster connections on port 29015
+2019-11-21T18:40:15.349668000 0.133943s notice: Listening for client driver connections on port 28015
+2019-11-21T18:40:15.350024000 0.134300s notice: Listening for administrative HTTP connections on port 8080
+2019-11-21T18:40:15.350037000 0.134312s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2019-11-21T18:40:15.350041000 0.134316s notice: Listening on driver addresses: 127.0.0.1, ::1
+2019-11-21T18:40:15.350045000 0.134319s notice: Listening on http addresses: 127.0.0.1, ::1
+2019-11-21T18:40:15.350048000 0.134322s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-11-21T18:40:15.350080000 0.134354s notice: Server ready, "ethans_mbp_home_v46" f0437e91-f915-41b3-8623-d7a58a5b3aed
+2019-11-21T18:40:16.171057000 0.955332s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2019-11-21T18:40:16.522874000 1.307150s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: Starting a new Raft election for term 2.
+2019-11-21T18:40:16.540668000 1.324943s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: This server is Raft leader for term 2. Latest log index is 3.
+2019-11-21T18:40:17.143971000 1.928247s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: Starting a new Raft election for term 2.
+2019-11-21T18:40:17.161435000 1.945710s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: This server is Raft leader for term 2. Latest log index is 3.
+2019-11-21T20:03:22.885374000 4987.396186s notice: Server got SIGINT from pid 283, uid 501; shutting down...
+2019-11-21T20:03:22.885641000 4987.396453s notice: Shutting down client connections...
+2019-11-21T20:03:22.887070000 4987.397882s notice: All client connections closed.
+2019-11-21T20:03:22.887107000 4987.397919s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2019-11-21T20:03:22.898284000 4987.409096s notice: Storage engine shut down.
+2019-11-21T20:07:13.393018000 0.015362s notice: Running rethinkdb 2.3.6 (CLANG 11.0.0 (clang-1100.0.33.8))...
+2019-11-21T20:07:13.401312000 0.023653s notice: Running on Darwin 19.0.0 x86_64
+2019-11-21T20:07:13.401375000 0.023714s notice: Loading data from directory /Users/ethanchamik/Magic/Perso/Magie/bot_discord/rethinkdb_data
+2019-11-21T20:07:13.447543000 0.069882s info: Automatically using cache size of 1757 MB
+2019-11-21T20:07:13.448037000 0.070376s notice: Listening for intracluster connections on port 29015
+2019-11-21T20:07:13.476359000 0.098697s notice: Listening for client driver connections on port 28015
+2019-11-21T20:07:13.476596000 0.098934s notice: Listening for administrative HTTP connections on port 8080
+2019-11-21T20:07:13.476600000 0.098938s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2019-11-21T20:07:13.476602000 0.098940s notice: Listening on driver addresses: 127.0.0.1, ::1
+2019-11-21T20:07:13.476604000 0.098941s notice: Listening on http addresses: 127.0.0.1, ::1
+2019-11-21T20:07:13.476605000 0.098943s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-11-21T20:07:13.476607000 0.098945s notice: Server ready, "ethans_mbp_home_v46" f0437e91-f915-41b3-8623-d7a58a5b3aed
+2019-11-21T20:07:14.911258000 1.533553s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: Starting a new Raft election for term 3.
+2019-11-21T20:07:14.928730000 1.551024s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: This server is Raft leader for term 3. Latest log index is 6.
+2019-11-21T20:07:14.964910000 1.587203s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: Starting a new Raft election for term 3.
+2019-11-21T20:07:14.980070000 1.602363s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: This server is Raft leader for term 3. Latest log index is 6.
+2019-11-21T20:07:15.155418000 1.777705s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2019-11-21T23:33:27.662353000 12373.530986s notice: Server got SIGINT from pid 2497, uid 501; shutting down...
+2019-11-21T23:33:27.662568000 12373.531201s notice: Shutting down client connections...
+2019-11-21T23:33:27.662771000 12373.531404s notice: All client connections closed.
+2019-11-21T23:33:27.662780000 12373.531413s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2019-11-21T23:33:27.670530000 12373.539163s notice: Storage engine shut down.
+2019-11-23T21:52:35.599115000 0.056916s notice: Running rethinkdb 2.3.6 (CLANG 11.0.0 (clang-1100.0.33.8))...
+2019-11-23T21:52:35.609454000 0.067244s notice: Running on Darwin 19.0.0 x86_64
+2019-11-23T21:52:35.609510000 0.067299s notice: Loading data from directory /Users/ethanchamik/Magic/Perso/Magie/bot_discord/rethinkdb_data
+2019-11-23T21:52:35.652581000 0.110371s info: Automatically using cache size of 3513 MB
+2019-11-23T21:52:35.655625000 0.113414s notice: Listening for intracluster connections on port 29015
+2019-11-23T21:52:35.694731000 0.152521s notice: Listening for client driver connections on port 28015
+2019-11-23T21:52:35.694867000 0.152656s notice: Listening for administrative HTTP connections on port 8080
+2019-11-23T21:52:35.694881000 0.152670s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2019-11-23T21:52:35.694883000 0.152672s notice: Listening on driver addresses: 127.0.0.1, ::1
+2019-11-23T21:52:35.694885000 0.152673s notice: Listening on http addresses: 127.0.0.1, ::1
+2019-11-23T21:52:35.694886000 0.152675s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-11-23T21:52:35.694888000 0.152677s notice: Server ready, "ethans_mbp_home_v46" f0437e91-f915-41b3-8623-d7a58a5b3aed
+2019-11-23T21:52:36.751904000 1.209693s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: Starting a new Raft election for term 4.
+2019-11-23T21:52:36.765694000 1.223484s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: This server is Raft leader for term 4. Latest log index is 9.
+2019-11-23T21:52:37.314341000 1.772131s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2019-11-23T21:52:37.419998000 1.877788s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: Starting a new Raft election for term 4.
+2019-11-23T21:52:37.433161000 1.890950s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: This server is Raft leader for term 4. Latest log index is 9.
+2019-11-23T23:02:10.925970000 4175.165289s notice: Server got SIGINT from pid 287, uid 501; shutting down...
+2019-11-23T23:02:10.926133000 4175.165451s notice: Shutting down client connections...
+2019-11-23T23:02:10.926232000 4175.165550s notice: All client connections closed.
+2019-11-23T23:02:10.926240000 4175.165558s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2019-11-23T23:02:10.934257000 4175.173576s notice: Storage engine shut down.
+2019-11-23T23:03:37.442479000 0.014712s notice: Running rethinkdb 2.3.6 (CLANG 11.0.0 (clang-1100.0.33.8))...
+2019-11-23T23:03:37.447804000 0.020035s notice: Running on Darwin 19.0.0 x86_64
+2019-11-23T23:03:37.448098000 0.020329s notice: Loading data from directory /Users/ethanchamik/Magic/Perso/Magie/bot_discord/rethinkdb_data
+2019-11-23T23:03:37.488489000 0.060717s info: Automatically using cache size of 2564 MB
+2019-11-23T23:03:37.489085000 0.061314s notice: Listening for intracluster connections on port 29015
+2019-11-23T23:03:37.516121000 0.088350s notice: Listening for client driver connections on port 28015
+2019-11-23T23:03:37.516315000 0.088543s notice: Listening for administrative HTTP connections on port 8080
+2019-11-23T23:03:37.516318000 0.088545s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2019-11-23T23:03:37.516320000 0.088547s notice: Listening on driver addresses: 127.0.0.1, ::1
+2019-11-23T23:03:37.516322000 0.088549s notice: Listening on http addresses: 127.0.0.1, ::1
+2019-11-23T23:03:37.516324000 0.088551s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-11-23T23:03:37.516333000 0.088560s notice: Server ready, "ethans_mbp_home_v46" f0437e91-f915-41b3-8623-d7a58a5b3aed
+2019-11-23T23:03:38.353437000 0.925640s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2019-11-23T23:03:38.864743000 1.436930s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: Starting a new Raft election for term 5.
+2019-11-23T23:03:38.882504000 1.454690s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: This server is Raft leader for term 5. Latest log index is 12.
+2019-11-23T23:03:39.186178000 1.758356s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: Starting a new Raft election for term 5.
+2019-11-23T23:03:39.198641000 1.770818s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: This server is Raft leader for term 5. Latest log index is 12.
+2019-11-24T21:36:26.872485000 0.050854s notice: Running rethinkdb 2.3.6 (CLANG 11.0.0 (clang-1100.0.33.8))...
+2019-11-24T21:36:26.879527000 0.057888s notice: Running on Darwin 19.0.0 x86_64
+2019-11-24T21:36:26.879584000 0.057944s notice: Loading data from directory /Users/ethanchamik/Magic/Perso/Magie/bot_discord/rethinkdb_data
+2019-11-24T21:36:26.927861000 0.106222s info: Automatically using cache size of 4533 MB
+2019-11-24T21:36:26.929951000 0.108312s notice: Listening for intracluster connections on port 29015
+2019-11-24T21:36:26.996823000 0.175184s notice: Listening for client driver connections on port 28015
+2019-11-24T21:36:26.996916000 0.175277s notice: Listening for administrative HTTP connections on port 8080
+2019-11-24T21:36:26.996919000 0.175279s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2019-11-24T21:36:26.996921000 0.175281s notice: Listening on driver addresses: 127.0.0.1, ::1
+2019-11-24T21:36:26.996928000 0.175288s notice: Listening on http addresses: 127.0.0.1, ::1
+2019-11-24T21:36:26.996930000 0.175290s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-11-24T21:36:26.996932000 0.175292s notice: Server ready, "ethans_mbp_home_v46" f0437e91-f915-41b3-8623-d7a58a5b3aed
+2019-11-24T21:36:28.603338000 1.781699s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: Starting a new Raft election for term 6.
+2019-11-24T21:36:28.621026000 1.799388s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: This server is Raft leader for term 6. Latest log index is 15.
+2019-11-24T21:36:28.642208000 1.820570s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: Starting a new Raft election for term 6.
+2019-11-24T21:36:28.659412000 1.837773s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: This server is Raft leader for term 6. Latest log index is 15.
+2019-11-24T21:36:29.705104000 2.883465s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2019-12-13T12:54:45.656907000 40.052417s notice: Running rethinkdb 2.3.6 (CLANG 11.0.0 (clang-1100.0.33.8))...
+2019-12-13T12:54:45.670142000 40.065642s notice: Running on Darwin 19.0.0 x86_64
+2019-12-13T12:54:45.670201000 40.065700s notice: Loading data from directory /Users/ethanchamik/Magic/Perso/Magie/bot_discord/rethinkdb_data
+2019-12-13T12:54:45.722072000 40.117570s info: Automatically using cache size of 400 MB
+2019-12-13T12:54:45.722717000 40.118215s notice: Listening for intracluster connections on port 29015
+2019-12-13T12:54:45.790650000 40.186148s notice: Listening for client driver connections on port 28015
+2019-12-13T12:54:45.790849000 40.186347s notice: Listening for administrative HTTP connections on port 8080
+2019-12-13T12:54:45.790872000 40.186369s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2019-12-13T12:54:45.790875000 40.186372s notice: Listening on driver addresses: 127.0.0.1, ::1
+2019-12-13T12:54:45.790878000 40.186375s notice: Listening on http addresses: 127.0.0.1, ::1
+2019-12-13T12:54:45.790881000 40.186377s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-12-13T12:54:45.790884000 40.186380s notice: Server ready, "ethans_mbp_home_v46" f0437e91-f915-41b3-8623-d7a58a5b3aed
+2019-12-13T12:54:46.292134000 40.687624s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2019-12-13T12:54:46.893083000 41.288566s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: Starting a new Raft election for term 7.
+2019-12-13T12:54:46.914243000 41.309726s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: This server is Raft leader for term 7. Latest log index is 18.
+2019-12-13T12:54:47.542791000 41.938266s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: Starting a new Raft election for term 7.
+2019-12-13T12:54:47.556239000 41.951713s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: This server is Raft leader for term 7. Latest log index is 18.
+2019-12-13T13:16:37.144103000 1351.520552s notice: Server got SIGINT from pid 283, uid 501; shutting down...
+2019-12-13T13:16:37.144301000 1351.520750s notice: Shutting down client connections...
+2019-12-13T13:16:37.144533000 1351.520981s notice: All client connections closed.
+2019-12-13T13:16:37.144571000 1351.521019s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2019-12-13T13:16:37.160697000 1351.537145s notice: Storage engine shut down.
+2019-12-20T15:05:27.474473000 40.061127s notice: Running rethinkdb 2.3.6 (CLANG 11.0.0 (clang-1100.0.33.8))...
+2019-12-20T15:05:27.489582000 40.076221s notice: Running on Darwin 19.2.0 x86_64
+2019-12-20T15:05:27.489638000 40.076276s notice: Loading data from directory /Users/ethanchamik/Magic/Perso/Magie/bot_discord/rethinkdb_data
+2019-12-20T15:05:27.525928000 40.112566s info: Automatically using cache size of 1107 MB
+2019-12-20T15:05:27.526405000 40.113043s notice: Listening for intracluster connections on port 29015
+2019-12-20T15:05:27.562145000 40.148781s notice: Listening for client driver connections on port 28015
+2019-12-20T15:05:27.562277000 40.148913s notice: Listening for administrative HTTP connections on port 8080
+2019-12-20T15:05:27.562280000 40.148916s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2019-12-20T15:05:27.562290000 40.148926s notice: Listening on driver addresses: 127.0.0.1, ::1
+2019-12-20T15:05:27.562292000 40.148928s notice: Listening on http addresses: 127.0.0.1, ::1
+2019-12-20T15:05:27.562294000 40.148930s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-12-20T15:05:27.562296000 40.148932s notice: Server ready, "ethans_mbp_home_v46" f0437e91-f915-41b3-8623-d7a58a5b3aed
+2019-12-20T15:05:28.049202000 40.635827s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2019-12-20T15:05:29.244760000 41.831354s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: Starting a new Raft election for term 8.
+2019-12-20T15:05:29.259248000 41.845842s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: This server is Raft leader for term 8. Latest log index is 21.
+2019-12-20T15:05:29.366004000 41.952596s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: Starting a new Raft election for term 8.
+2019-12-20T15:05:29.376135000 41.962726s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: This server is Raft leader for term 8. Latest log index is 21.
+2019-12-20T15:09:08.101339000 260.682398s notice: Server got SIGINT from pid 273, uid 501; shutting down...
+2019-12-20T15:09:08.101520000 260.682579s notice: Shutting down client connections...
+2019-12-20T15:09:08.101658000 260.682717s notice: All client connections closed.
+2019-12-20T15:09:08.101667000 260.682725s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2019-12-20T15:09:08.107822000 260.688881s notice: Storage engine shut down.
+2019-12-20T15:23:18.921149000 40.078384s notice: Running rethinkdb 2.3.6 (CLANG 11.0.0 (clang-1100.0.33.8))...
+2019-12-20T15:23:18.932930000 40.090160s notice: Running on Darwin 19.2.0 x86_64
+2019-12-20T15:23:18.933005000 40.090234s notice: Loading data from directory /Users/ethanchamik/Magic/Perso/Magie/bot_discord/rethinkdb_data
+2019-12-20T15:23:18.989096000 40.146324s info: Automatically using cache size of 1320 MB
+2019-12-20T15:23:18.989539000 40.146767s notice: Listening for intracluster connections on port 29015
+2019-12-20T15:23:19.076172000 40.233398s notice: Listening for client driver connections on port 28015
+2019-12-20T15:23:19.076598000 40.233824s notice: Listening for administrative HTTP connections on port 8080
+2019-12-20T15:23:19.076611000 40.233836s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2019-12-20T15:23:19.076615000 40.233840s notice: Listening on driver addresses: 127.0.0.1, ::1
+2019-12-20T15:23:19.076618000 40.233844s notice: Listening on http addresses: 127.0.0.1, ::1
+2019-12-20T15:23:19.076622000 40.233847s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-12-20T15:23:19.076653000 40.233879s notice: Server ready, "ethans_mbp_home_v46" f0437e91-f915-41b3-8623-d7a58a5b3aed
+2019-12-20T15:23:19.610000000 40.767213s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2019-12-20T15:23:20.936473000 42.093652s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: Starting a new Raft election for term 9.
+2019-12-20T15:23:20.961960000 42.119138s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: This server is Raft leader for term 9. Latest log index is 24.
+2019-12-20T15:23:20.997317000 42.154494s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: Starting a new Raft election for term 9.
+2019-12-20T15:23:21.009746000 42.166922s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: This server is Raft leader for term 9. Latest log index is 24.
+2019-12-20T15:40:39.617541000 876.608958s notice: Server got SIGINT from pid 273, uid 501; shutting down...
+2019-12-20T15:40:39.618155000 876.609572s notice: Shutting down client connections...
+2019-12-20T15:40:39.621237000 876.612655s notice: All client connections closed.
+2019-12-20T15:40:39.621323000 876.612740s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2019-12-20T15:40:39.677841000 876.669256s notice: Storage engine shut down.
+2020-01-05T23:45:35.949286000 0.040545s notice: Running rethinkdb 2.3.6 (CLANG 11.0.0 (clang-1100.0.33.8))...
+2020-01-05T23:45:35.965324000 0.056578s notice: Running on Darwin 19.2.0 x86_64
+2020-01-05T23:45:35.965386000 0.056639s notice: Loading data from directory /Users/ethanchamik/Magic/Perso/Magie/bot_discord/rethinkdb_data
+2020-01-05T23:45:36.004719000 0.095972s info: Automatically using cache size of 819 MB
+2020-01-05T23:45:36.006545000 0.097798s notice: Listening for intracluster connections on port 29015
+2020-01-05T23:45:36.072838000 0.164090s notice: Listening for client driver connections on port 28015
+2020-01-05T23:45:36.072986000 0.164238s notice: Listening for administrative HTTP connections on port 8080
+2020-01-05T23:45:36.072988000 0.164240s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-01-05T23:45:36.072990000 0.164242s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-01-05T23:45:36.072997000 0.164250s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-01-05T23:45:36.072999000 0.164251s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-01-05T23:45:36.073001000 0.164253s notice: Server ready, "ethans_mbp_home_v46" f0437e91-f915-41b3-8623-d7a58a5b3aed
+2020-01-05T23:45:36.959181000 1.050428s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2020-01-05T23:45:37.151891000 1.243136s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: Starting a new Raft election for term 10.
+2020-01-05T23:45:37.167831000 1.259077s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: This server is Raft leader for term 10. Latest log index is 27.
+2020-01-05T23:45:37.278717000 1.369962s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: Starting a new Raft election for term 10.
+2020-01-05T23:45:37.289139000 1.380383s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: This server is Raft leader for term 10. Latest log index is 27.
+2020-01-05T23:45:46.681794000 10.772977s notice: Server got SIGINT from pid 830, uid 501; shutting down...
+2020-01-05T23:45:46.681955000 10.773137s notice: Shutting down client connections...
+2020-01-05T23:45:46.682076000 10.773257s notice: All client connections closed.
+2020-01-05T23:45:46.682084000 10.773266s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-05T23:45:46.692535000 10.783717s notice: Storage engine shut down.
+2020-01-05T23:51:01.610808000 0.117466s notice: Running rethinkdb 2.3.6 (CLANG 11.0.0 (clang-1100.0.33.8))...
+2020-01-05T23:51:01.616666000 0.123321s notice: Running on Darwin 19.2.0 x86_64
+2020-01-05T23:51:01.616724000 0.123378s notice: Loading data from directory /Users/ethanchamik/Magic/Perso/Magie/bot_discord/rethinkdb_data
+2020-01-05T23:51:01.657093000 0.163746s info: Automatically using cache size of 579 MB
+2020-01-05T23:51:01.657532000 0.164186s notice: Listening for intracluster connections on port 29015
+2020-01-05T23:51:01.706129000 0.212782s notice: Listening for client driver connections on port 28015
+2020-01-05T23:51:01.706651000 0.213304s notice: Listening for administrative HTTP connections on port 8080
+2020-01-05T23:51:01.706654000 0.213307s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-01-05T23:51:01.706656000 0.213310s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-01-05T23:51:01.706659000 0.213312s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-01-05T23:51:01.706661000 0.213314s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-01-05T23:51:01.706682000 0.213336s notice: Server ready, "ethans_mbp_home_v46" f0437e91-f915-41b3-8623-d7a58a5b3aed
+2020-01-05T23:51:02.497664000 1.004312s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2020-01-05T23:51:03.225545000 1.732191s notice: Server got SIGINT from pid 830, uid 501; shutting down...
+2020-01-05T23:51:03.225751000 1.732394s notice: Shutting down client connections...
+2020-01-05T23:51:03.225844000 1.732487s notice: All client connections closed.
+2020-01-05T23:51:03.225848000 1.732491s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-05T23:51:03.231762000 1.738405s notice: Storage engine shut down.
+2020-01-06T00:04:36.435108000 0.030491s notice: Running rethinkdb 2.3.6 (CLANG 11.0.0 (clang-1100.0.33.8))...
+2020-01-06T00:04:36.441127000 0.036507s notice: Running on Darwin 19.2.0 x86_64
+2020-01-06T00:04:36.441212000 0.036590s notice: Loading data from directory /Users/ethanchamik/Magic/Perso/Magie/bot_discord/rethinkdb_data
+2020-01-06T00:04:36.490806000 0.086184s info: Automatically using cache size of 668 MB
+2020-01-06T00:04:36.492566000 0.087944s notice: Listening for intracluster connections on port 29015
+2020-01-06T00:04:36.567133000 0.162510s notice: Listening for client driver connections on port 28015
+2020-01-06T00:04:36.567325000 0.162702s notice: Listening for administrative HTTP connections on port 8080
+2020-01-06T00:04:36.567329000 0.162706s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-01-06T00:04:36.567332000 0.162708s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-01-06T00:04:36.567333000 0.162710s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-01-06T00:04:36.567335000 0.162712s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-01-06T00:04:36.567336000 0.162713s notice: Server ready, "ethans_mbp_home_v46" f0437e91-f915-41b3-8623-d7a58a5b3aed
+2020-01-06T00:04:37.198572000 0.793942s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2020-01-06T00:04:37.646477000 1.241842s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: Starting a new Raft election for term 11.
+2020-01-06T00:04:37.664516000 1.259881s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: This server is Raft leader for term 11. Latest log index is 30.
+2020-01-06T00:04:37.676566000 1.271930s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: Starting a new Raft election for term 11.
+2020-01-06T00:04:37.694378000 1.289742s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: This server is Raft leader for term 11. Latest log index is 30.
+2020-01-06T14:53:09.651989928 0.017041s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-06T14:53:09.655706271 0.020756s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-06T14:53:09.656116876 0.021165s notice: Loading data from directory /data/rethinkdb_data
+2020-01-06T14:53:09.668415744 0.033463s notice: Migrating cluster metadata to v2.4
+2020-01-06T14:53:09.690867850 0.055930s info: Automatically using cache size of 295 MB
+2020-01-06T14:53:09.692734113 0.057782s notice: Listening for intracluster connections on port 29015
+2020-01-06T14:53:09.790082545 0.155130s notice: Listening for client driver connections on port 28015
+2020-01-06T14:53:09.790455581 0.155503s notice: Listening for administrative HTTP connections on port 8080
+2020-01-06T14:53:09.790458969 0.155506s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.2
+2020-01-06T14:53:09.790461531 0.155509s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.2
+2020-01-06T14:53:09.790472241 0.155520s notice: Listening on http addresses: 127.0.0.1, 172.17.0.2
+2020-01-06T14:53:09.790475024 0.155522s notice: Server ready, "ethans_mbp_home_v46" f0437e91-f915-41b3-8623-d7a58a5b3aed
+2020-01-06T14:53:11.243469223 1.608517s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: Starting a new Raft election for term 12.
+2020-01-06T14:53:11.245528373 1.610576s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: Starting a new Raft election for term 12.
+2020-01-06T14:53:11.245776005 1.610824s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: This server is Raft leader for term 12. Latest log index is 33.
+2020-01-06T14:53:11.247388430 1.612436s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: This server is Raft leader for term 12. Latest log index is 33.
+2020-01-06T15:43:29.141666337 3021.643612s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-06T15:43:29.141839932 3021.643785s notice: Shutting down client connections...
+2020-01-06T15:43:29.141884967 3021.643830s notice: All client connections closed.
+2020-01-06T15:43:29.141901888 3021.643847s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-06T15:43:29.147800491 3021.649746s notice: Storage engine shut down.
+2020-01-07T10:32:00.429745024 0.012295s warn: Parent directory of log file (/data/rethinkdb_data/log_file) could not be synced. (Invalid argument)
+2020-01-07T10:32:00.434939367 0.017492s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-07T10:32:00.437547352 0.020100s notice: Running on Linux 4.19.81 x86_64
+2020-01-07T10:32:00.437714322 0.020264s notice: Loading data from directory /data/rethinkdb_data
+2020-01-07T10:32:00.442528616 0.025079s warn: Failed to sync parent directory of "/data/rethinkdb_data/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2020-01-07T10:32:00.454072999 0.036625s info: Automatically using cache size of 100 MB
+2020-01-07T10:32:00.454453085 0.037003s warn: Cache size is very low and may impact performance.
+2020-01-07T10:32:00.455106073 0.037656s notice: Listening for intracluster connections on port 29015
+2020-01-07T10:32:00.462285138 0.044835s warn: Failed to sync parent directory of "/data/rethinkdb_data/4a59252f-c2a7-4b82-97ba-dfac24ad1901" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2020-01-07T10:32:00.543750358 0.126300s warn: Failed to sync parent directory of "/data/rethinkdb_data/8035b170-09fa-422e-b77e-60d6098c5f31" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2020-01-07T10:32:00.610725757 0.193277s notice: Listening for client driver connections on port 28015
+2020-01-07T10:32:00.611040952 0.193591s notice: Listening for administrative HTTP connections on port 8080
+2020-01-07T10:32:00.611124074 0.193674s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.4
+2020-01-07T10:32:00.611126063 0.193676s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.4
+2020-01-07T10:32:00.611127747 0.193677s notice: Listening on http addresses: 127.0.0.1, 172.17.0.4
+2020-01-07T10:32:00.611129493 0.193679s notice: Server ready, "ethans_mbp_home_v46" f0437e91-f915-41b3-8623-d7a58a5b3aed
+2020-01-07T10:32:01.530574107 1.113124s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: Starting a new Raft election for term 13.
+2020-01-07T10:32:01.540820265 1.123370s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: This server is Raft leader for term 13. Latest log index is 36.
+2020-01-07T10:32:01.663161214 1.245711s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: Starting a new Raft election for term 13.
+2020-01-07T10:32:01.663606912 1.246157s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: This server is Raft leader for term 13. Latest log index is 36.
+2020-01-07T15:47:20.927139492 18920.509690s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-07T15:47:20.929451779 18920.512002s notice: Shutting down client connections...
+2020-01-07T15:47:20.932113671 18920.514664s notice: All client connections closed.
+2020-01-07T15:47:20.932124029 18920.514674s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-07T15:47:21.034485766 18920.617036s notice: Storage engine shut down.
+2020-01-08T14:22:31.239247801 0.042779s warn: Parent directory of log file (/data/rethinkdb_data/log_file) could not be synced. (Invalid argument)
+2020-01-08T14:22:31.241755389 0.045288s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-08T14:22:31.253824410 0.057358s notice: Running on Linux 4.19.81 x86_64
+2020-01-08T14:22:31.254190954 0.057722s notice: Loading data from directory /data/rethinkdb_data
+2020-01-08T14:22:31.263132718 0.066664s warn: Failed to sync parent directory of "/data/rethinkdb_data/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2020-01-08T14:22:31.278498140 0.082031s info: Automatically using cache size of 100 MB
+2020-01-08T14:22:31.278984833 0.082516s warn: Cache size is very low and may impact performance.
+2020-01-08T14:22:31.287520783 0.091052s notice: Listening for intracluster connections on port 29015
+2020-01-08T14:22:31.303422071 0.106953s warn: Failed to sync parent directory of "/data/rethinkdb_data/4a59252f-c2a7-4b82-97ba-dfac24ad1901" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2020-01-08T14:22:31.331186554 0.134717s warn: Failed to sync parent directory of "/data/rethinkdb_data/8035b170-09fa-422e-b77e-60d6098c5f31" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2020-01-08T14:22:31.350390377 0.153921s notice: Listening for client driver connections on port 28015
+2020-01-08T14:22:31.350483763 0.154015s notice: Listening for administrative HTTP connections on port 8080
+2020-01-08T14:22:31.350493366 0.154024s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.4
+2020-01-08T14:22:31.350495148 0.154026s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.4
+2020-01-08T14:22:31.350497473 0.154028s notice: Listening on http addresses: 127.0.0.1, 172.17.0.4
+2020-01-08T14:22:31.350499298 0.154030s notice: Server ready, "ethans_mbp_home_v46" f0437e91-f915-41b3-8623-d7a58a5b3aed
+2020-01-08T14:22:32.510291937 1.313823s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: Starting a new Raft election for term 14.
+2020-01-08T14:22:32.511201474 1.314732s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: This server is Raft leader for term 14. Latest log index is 39.
+2020-01-08T14:22:32.581479744 1.385011s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: Starting a new Raft election for term 14.
+2020-01-08T14:22:32.582219552 1.385750s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: This server is Raft leader for term 14. Latest log index is 39.
+2020-01-09T09:54:54.893056921 0.168858s warn: Parent directory of log file (/data/rethinkdb_data/log_file) could not be synced. (Invalid argument)
+2020-01-09T09:54:54.895652219 0.171455s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-09T09:54:54.906279977 0.182083s notice: Running on Linux 4.19.81 x86_64
+2020-01-09T09:54:54.906492793 0.182293s notice: Loading data from directory /data/rethinkdb_data
+2020-01-09T09:54:54.910797576 0.186598s warn: Failed to sync parent directory of "/data/rethinkdb_data/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2020-01-09T09:54:54.930082431 0.205884s info: Automatically using cache size of 100 MB
+2020-01-09T09:54:54.930580696 0.206381s warn: Cache size is very low and may impact performance.
+2020-01-09T09:54:54.937782420 0.213583s notice: Listening for intracluster connections on port 29015
+2020-01-09T09:54:54.944799018 0.220599s warn: Failed to sync parent directory of "/data/rethinkdb_data/4a59252f-c2a7-4b82-97ba-dfac24ad1901" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2020-01-09T09:54:54.967454980 0.243255s warn: Failed to sync parent directory of "/data/rethinkdb_data/8035b170-09fa-422e-b77e-60d6098c5f31" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2020-01-09T09:54:55.010952598 0.286753s notice: Listening for client driver connections on port 28015
+2020-01-09T09:54:55.011124273 0.286925s notice: Listening for administrative HTTP connections on port 8080
+2020-01-09T09:54:55.011134892 0.286935s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.4
+2020-01-09T09:54:55.011136638 0.286937s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.4
+2020-01-09T09:54:55.011138291 0.286939s notice: Listening on http addresses: 127.0.0.1, 172.17.0.4
+2020-01-09T09:54:55.011145728 0.286946s notice: Server ready, "ethans_mbp_home_v46" f0437e91-f915-41b3-8623-d7a58a5b3aed
+2020-01-09T09:54:56.555849554 1.831650s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: Starting a new Raft election for term 15.
+2020-01-09T09:54:56.558039677 1.833840s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: This server is Raft leader for term 15. Latest log index is 42.
+2020-01-09T09:54:56.835757848 2.111558s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: Starting a new Raft election for term 15.
+2020-01-09T09:54:56.836571201 2.112372s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: This server is Raft leader for term 15. Latest log index is 42.
+2020-01-09T14:11:25.973253948 6555.701477s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-09T14:11:25.973549403 6555.701773s notice: Shutting down client connections...
+2020-01-09T14:11:25.987633692 6555.715857s notice: All client connections closed.
+2020-01-09T14:11:25.987636981 6555.715860s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-09T14:11:26.071141001 6555.799364s notice: Storage engine shut down.
+2020-01-09T14:11:29.246639250 0.004196s warn: Parent directory of log file (/data/rethinkdb_data/log_file) could not be synced. (Invalid argument)
+2020-01-09T14:11:29.251153744 0.008713s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-09T14:11:29.290638416 0.048197s notice: Running on Linux 4.19.81 x86_64
+2020-01-09T14:11:29.290875885 0.048433s notice: Loading data from directory /data/rethinkdb_data
+2020-01-09T14:11:29.297579260 0.055136s warn: Failed to sync parent directory of "/data/rethinkdb_data/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2020-01-09T14:11:29.334944626 0.092503s info: Automatically using cache size of 100 MB
+2020-01-09T14:11:29.338376018 0.095933s warn: Cache size does not leave much memory for server and query overhead (available memory: 940 MB).
+2020-01-09T14:11:29.338389155 0.095946s warn: Cache size is very low and may impact performance.
+2020-01-09T14:11:29.340212427 0.097769s notice: Listening for intracluster connections on port 29015
+2020-01-09T14:11:29.360851399 0.118408s warn: Failed to sync parent directory of "/data/rethinkdb_data/4a59252f-c2a7-4b82-97ba-dfac24ad1901" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2020-01-09T14:11:29.412695963 0.170253s warn: Failed to sync parent directory of "/data/rethinkdb_data/8035b170-09fa-422e-b77e-60d6098c5f31" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2020-01-09T14:11:29.454353796 0.211910s notice: Listening for client driver connections on port 28015
+2020-01-09T14:11:29.454977859 0.212535s notice: Listening for administrative HTTP connections on port 8080
+2020-01-09T14:11:29.454981725 0.212538s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.2
+2020-01-09T14:11:29.455030517 0.212587s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.2
+2020-01-09T14:11:29.455033619 0.212590s notice: Listening on http addresses: 127.0.0.1, 172.17.0.2
+2020-01-09T14:11:29.455035991 0.212592s notice: Server ready, "ethans_mbp_home_v46" f0437e91-f915-41b3-8623-d7a58a5b3aed
+2020-01-09T14:11:30.731121273 1.488678s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: Starting a new Raft election for term 16.
+2020-01-09T14:11:30.732284356 1.489841s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: This server is Raft leader for term 16. Latest log index is 45.
+2020-01-09T14:11:31.402594431 2.160152s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: Starting a new Raft election for term 16.
+2020-01-09T14:11:31.403437576 2.160994s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: This server is Raft leader for term 16. Latest log index is 45.
+2020-01-09T14:12:38.738247775 69.495805s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-09T14:12:38.738436583 69.495993s notice: Shutting down client connections...
+2020-01-09T14:12:38.740317856 69.497875s notice: All client connections closed.
+2020-01-09T14:12:38.740387903 69.497944s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-09T14:12:38.800225295 69.557783s notice: Storage engine shut down.
+2020-01-09T14:14:47.598003873 0.173214s warn: Parent directory of log file (/data/rethinkdb_data/log_file) could not be synced. (Invalid argument)
+2020-01-09T14:14:47.601112460 0.176325s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-09T14:14:47.621287200 0.196499s notice: Running on Linux 4.19.81 x86_64
+2020-01-09T14:14:47.621628172 0.196838s notice: Loading data from directory /data/rethinkdb_data
+2020-01-09T14:14:47.632817873 0.208028s warn: Failed to sync parent directory of "/data/rethinkdb_data/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2020-01-09T14:14:47.675054635 0.250266s info: Automatically using cache size of 100 MB
+2020-01-09T14:14:47.675547696 0.250757s warn: Cache size is very low and may impact performance.
+2020-01-09T14:14:47.685526924 0.260737s notice: Listening for intracluster connections on port 29015
+2020-01-09T14:14:47.703243596 0.278453s warn: Failed to sync parent directory of "/data/rethinkdb_data/4a59252f-c2a7-4b82-97ba-dfac24ad1901" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2020-01-09T14:14:47.736192302 0.311402s warn: Failed to sync parent directory of "/data/rethinkdb_data/8035b170-09fa-422e-b77e-60d6098c5f31" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2020-01-09T14:14:47.901130801 0.476341s notice: Listening for client driver connections on port 28015
+2020-01-09T14:14:47.904919836 0.480130s notice: Listening for administrative HTTP connections on port 8080
+2020-01-09T14:14:47.904924278 0.480134s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.3
+2020-01-09T14:14:47.904927279 0.480137s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.3
+2020-01-09T14:14:47.904999267 0.480209s notice: Listening on http addresses: 127.0.0.1, 172.17.0.3
+2020-01-09T14:14:47.905001026 0.480211s notice: Server ready, "ethans_mbp_home_v46" f0437e91-f915-41b3-8623-d7a58a5b3aed
+2020-01-09T14:14:49.024640092 1.599850s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: Starting a new Raft election for term 17.
+2020-01-09T14:14:49.025520007 1.600730s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: This server is Raft leader for term 17. Latest log index is 48.
+2020-01-09T14:14:49.645234487 2.220444s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: Starting a new Raft election for term 17.
+2020-01-09T14:14:49.656566567 2.231776s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: This server is Raft leader for term 17. Latest log index is 48.
+2020-01-09T14:43:50.665636293 1743.240847s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-09T14:43:50.666603951 1743.241814s notice: Shutting down client connections...
+2020-01-09T14:43:50.668741480 1743.243952s notice: All client connections closed.
+2020-01-09T14:43:50.668746898 1743.243957s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-09T14:43:50.725352897 1743.300563s notice: Storage engine shut down.
+2020-01-09T14:44:04.393049524 0.006525s warn: Parent directory of log file (/data/rethinkdb_data/log_file) could not be synced. (Invalid argument)
+2020-01-09T14:44:04.395863707 0.009341s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-09T14:44:04.401101898 0.014579s notice: Running on Linux 4.19.81 x86_64
+2020-01-09T14:44:04.401413407 0.014889s notice: Loading data from directory /data/rethinkdb_data
+2020-01-09T14:44:04.404610248 0.018085s warn: Failed to sync parent directory of "/data/rethinkdb_data/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2020-01-09T14:44:04.411883799 0.025360s info: Automatically using cache size of 100 MB
+2020-01-09T14:44:04.412242204 0.025717s warn: Cache size does not leave much memory for server and query overhead (available memory: 1019 MB).
+2020-01-09T14:44:04.412246226 0.025721s warn: Cache size is very low and may impact performance.
+2020-01-09T14:44:04.412866952 0.026342s notice: Listening for intracluster connections on port 29015
+2020-01-09T14:44:04.416198317 0.029673s warn: Failed to sync parent directory of "/data/rethinkdb_data/4a59252f-c2a7-4b82-97ba-dfac24ad1901" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2020-01-09T14:44:04.431768972 0.045244s warn: Failed to sync parent directory of "/data/rethinkdb_data/8035b170-09fa-422e-b77e-60d6098c5f31" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2020-01-09T14:44:04.448412496 0.061888s notice: Listening for client driver connections on port 28015
+2020-01-09T14:44:04.448663565 0.062139s notice: Listening for administrative HTTP connections on port 8080
+2020-01-09T14:44:04.448665771 0.062141s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.3
+2020-01-09T14:44:04.448839168 0.062314s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.3
+2020-01-09T14:44:04.448841490 0.062316s notice: Listening on http addresses: 127.0.0.1, 172.17.0.3
+2020-01-09T14:44:04.448845086 0.062320s notice: Server ready, "ethans_mbp_home_v46" f0437e91-f915-41b3-8623-d7a58a5b3aed
+2020-01-09T14:44:05.838830769 1.452306s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: Starting a new Raft election for term 18.
+2020-01-09T14:44:05.839257312 1.452732s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: This server is Raft leader for term 18. Latest log index is 51.
+2020-01-09T14:44:06.226950624 1.840426s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: Starting a new Raft election for term 18.
+2020-01-09T14:44:06.227867959 1.841343s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: This server is Raft leader for term 18. Latest log index is 51.

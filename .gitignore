@@ -1,0 +1,6 @@
+exemple/
+app/config.json
+*.DS_Store
+.DS_Store
+todo
+bot_discord.txt

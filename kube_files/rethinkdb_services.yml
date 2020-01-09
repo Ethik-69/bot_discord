@@ -1,0 +1,24 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: rethinkdb-admin
+spec:
+  type: NodePort
+  selector:
+    app: rethinkdb-app
+  ports:
+  - protocol: TCP
+    port: 8080
+    targetPort: 8080
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: rethinkdb-driver
+spec:
+  selector:
+   app: rethinkdb-app
+  ports:
+   - port: 28015
+     name: driver-port
+     targetPort: 28015

@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rethinkdb-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: rethinkdb-app
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: rethinkdb-app
+    spec:
+      containers:
+      - name: rethinkdb-container
+        image: rethinkdb:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080
+          name: admin-port
+        - containerPort: 28015
+          name: driver-port
+        - containerPort: 29015
+          name: cluster-port
+        volumeMounts:
+        - mountPath: /data/rethinkdb_data
+          name: rethinkdb-data
+      volumes:
+      - name: rethinkdb-data
+        hostPath:
+          path: /Users/ethanchamik/Magic/Perso/Magie/bot_discord/rethinkdb_data
+          type: Directory
