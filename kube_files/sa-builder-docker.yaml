@@ -1,0 +1,13 @@
+apiVersion: v1
+imagePullSecrets:
+- name: docker-private
+kind: ServiceAccount
+metadata:
+  creationTimestamp: "2020-01-07T14:34:22Z"
+  name: builder-docker
+  namespace: default
+  resourceVersion: "54209"
+  selfLink: /api/v1/namespaces/default/serviceaccounts/builder-docker
+  uid: a58a7b22-03f2-4b2e-8609-fc880c9ca983
+secrets:
+- name: builder-docker-token-2sxwd

@@ -411,3 +411,28 @@
 2020-01-09T14:44:05.839257312 1.452732s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: This server is Raft leader for term 18. Latest log index is 51.
 2020-01-09T14:44:06.226950624 1.840426s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: Starting a new Raft election for term 18.
 2020-01-09T14:44:06.227867959 1.841343s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: This server is Raft leader for term 18. Latest log index is 51.
+2020-01-09T16:00:05.785178430 3916.007392s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-09T16:00:05.785390970 3916.007604s notice: Shutting down client connections...
+2020-01-09T16:00:05.785418664 3916.007632s notice: All client connections closed.
+2020-01-09T16:00:05.785420970 3916.007634s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-09T16:00:05.926686072 3916.148899s notice: Storage engine shut down.
+2020-01-10T13:19:33.670150735 0.104569s warn: Parent directory of log file (/data/rethinkdb_data/log_file) could not be synced. (Invalid argument)
+2020-01-10T13:19:33.686398818 0.120819s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-10T13:19:33.750135975 0.184556s notice: Running on Linux 4.19.81 x86_64
+2020-01-10T13:19:33.750378960 0.184797s notice: Loading data from directory /data/rethinkdb_data
+2020-01-10T13:19:33.782999632 0.217417s warn: Failed to sync parent directory of "/data/rethinkdb_data/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2020-01-10T13:19:33.832982008 0.267402s info: Automatically using cache size of 100 MB
+2020-01-10T13:19:33.833609523 0.268027s warn: Cache size is very low and may impact performance.
+2020-01-10T13:19:33.904209573 0.338627s notice: Listening for intracluster connections on port 29015
+2020-01-10T13:19:33.948912506 0.383330s warn: Failed to sync parent directory of "/data/rethinkdb_data/4a59252f-c2a7-4b82-97ba-dfac24ad1901" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2020-01-10T13:19:34.037070451 0.471488s warn: Failed to sync parent directory of "/data/rethinkdb_data/8035b170-09fa-422e-b77e-60d6098c5f31" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2020-01-10T13:19:34.075663558 0.510081s notice: Listening for client driver connections on port 28015
+2020-01-10T13:19:34.075904402 0.510322s notice: Listening for administrative HTTP connections on port 8080
+2020-01-10T13:19:34.075907108 0.510324s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.3
+2020-01-10T13:19:34.075916927 0.510334s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.3
+2020-01-10T13:19:34.075919370 0.510337s notice: Listening on http addresses: 127.0.0.1, 172.17.0.3
+2020-01-10T13:19:34.075921613 0.510339s notice: Server ready, "ethans_mbp_home_v46" f0437e91-f915-41b3-8623-d7a58a5b3aed
+2020-01-10T13:19:35.135425747 1.569843s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: Starting a new Raft election for term 19.
+2020-01-10T13:19:35.136241073 1.570659s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: This server is Raft leader for term 19. Latest log index is 54.
+2020-01-10T13:19:35.714716927 2.149135s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: Starting a new Raft election for term 19.
+2020-01-10T13:19:35.716101960 2.150520s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: This server is Raft leader for term 19. Latest log index is 54.

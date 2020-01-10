@@ -9,7 +9,7 @@ import aiohttp
 import discord
 from discord.ext import commands
 
-import rethinkdb as rdb
+from rethinkdb import RethinkDB
 from rethinkdb.errors import RqlRuntimeError, RqlDriverError
 
 
@@ -35,9 +35,8 @@ handler.setFormatter(
 with open('config.json', 'r') as file:
     config = json.load(file)
 
-rdb = rdb.RethinkDB()
 db_name = config["data_base"]['db_name']
-
+rdb = RethinkDB()
 
 # Create DB connection
 try:
