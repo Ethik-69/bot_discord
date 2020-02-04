@@ -1,0 +1,21 @@
+{
+    "token": "NDQ3MTIxOTQ3NDc0Nzg4MzUz.DeC-sw.z-gXo4w0WKwIsMiFCK93myhRK3w",
+    "prefix": "$",
+    "description": "A bot that greets the user back.",
+    "ownerID": 170141880049336320,
+    "extensions": [],
+    "authorized_users": {
+        "ethan": 170141880049336320,
+        "cochon": 295490015042207744,
+        "gaetan": 174093195074863104,
+        "maka": 201426419379732480
+    },
+    "data_base": {
+        "host": "rethinkdb-driver",
+        "port": 28015,
+        "db_name": "bot",
+        "article_table_name": "articles",
+        "sites_table_name": "sites",
+        "auth_key": "sitdfskqj5Ses"
+    }
+}

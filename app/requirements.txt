@@ -1,6 +1,0 @@
-aiohttp==3.6.0
-discord.py==1.2.5
-rethinkdb==2.4.4.post1
-feedparser==5.2.1
-beautifulsoup4==4.8.2
-discord==1.0.1
