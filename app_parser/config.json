@@ -1,0 +1,10 @@
+{
+    "data_base": {
+        "host": "rethinkdb-driver",
+        "port": 28015,
+        "db_name": "bot",
+        "article_table_name": "articles",
+        "sites_table_name": "sites",
+        "auth_key": "sitdfskqj5Ses"
+    }
+}

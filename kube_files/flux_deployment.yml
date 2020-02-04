@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flux-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: flux-app
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: flux-app
+    spec:
+      serviceAccountName: builder-docker
+      containers:
+      - name: flux-container
+        image: ethik69/flux_parser:latest
+        imagePullPolicy: Always

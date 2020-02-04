@@ -4,3 +4,4 @@ app/config.json
 .DS_Store
 todo
 bot_discord.txt
+deploy_docker.sh
