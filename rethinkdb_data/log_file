@@ -570,3 +570,8 @@
 2020-02-04T13:19:31.502991567 1.685758s info: Table 8035b170-09fa-422e-b77e-60d6098c5f31: This server is Raft leader for term 24. Latest log index is 69.
 2020-02-04T13:19:31.721599891 1.904367s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: Starting a new Raft election for term 24.
 2020-02-04T13:19:31.722014698 1.904781s info: Table 4a59252f-c2a7-4b82-97ba-dfac24ad1901: This server is Raft leader for term 24. Latest log index is 69.
+2020-02-04T15:22:04.689886099 7354.872654s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-02-04T15:22:04.700770933 7354.883538s notice: Shutting down client connections...
+2020-02-04T15:22:04.746628912 7354.929396s notice: All client connections closed.
+2020-02-04T15:22:04.746635320 7354.929402s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-02-04T15:22:05.161899940 7355.344667s notice: Storage engine shut down.

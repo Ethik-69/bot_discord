@@ -1,4 +1,5 @@
 exemple/
+rethinkdb_data/
 app/config.json
 *.DS_Store
 .DS_Store

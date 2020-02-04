@@ -7,15 +7,15 @@ docker run --name main_bot -d ethik69/bot_discord:latest
 
 ## DB
 
-https://hub.docker.com/_/rethinkdb?tab=description
+[RethinkDB docker](https://hub.docker.com/_/rethinkdb?tab=description)
 
-docker run --name some-rethink -v "$PWD/rethinkdb_data:/data/rethinkdb_data" -d -p 8080:8080 -p 29015:29015 -p 28015:28015 rethinkdb
+`docker run --name some-rethink -v "$PWD/rethinkdb_data:/data/rethinkdb_data" -d -p 8080:8080 -p 29015:29015 -p 28015:28015 rethinkdb`
 
-$BROWSER "http://$(docker inspect --format '{{ .NetworkSettings.IPAddress }}' some-rethink):8080"
+`$BROWSER "http://$(docker inspect --format '{{ .NetworkSettings.IPAddress }}' some-rethink):8080"`
 
 ## Kube
 
-https://medium.com/@yzhong.cs/getting-started-with-kubernetes-and-docker-with-minikube-b413d4deeb92
+[Tuto docker with kube](https://medium.com/@yzhong.cs/getting-started-with-kubernetes-and-docker-with-minikube-b413d4deeb92)
 
 ## Docker
 
@@ -24,12 +24,12 @@ https://medium.com/@yzhong.cs/getting-started-with-kubernetes-and-docker-with-mi
 `for i in $(docker ps -a | awk 'NR != 1 {print $1}'); do docker stop $i && docker rm $i; done`
 `for i in $(docker images | awk 'NR != 1 {print $3}'); do docker rmi $i; done`
 
-https://docs.docker.com/engine/reference/commandline/logs/
+[Docker cmd line ref](https://docs.docker.com/engine/reference/commandline/logs/)  
 `docker logs {container_id} --tail=all -f`
 
 ## gRPC
 
-https://grpc.io
+[Site](https://grpc.io)
 
 ### Usefull cmd
 
@@ -71,7 +71,7 @@ https://grpc.io
 `kubectl port-forward service/kube-ops-view 8081:80`
 
 - Archi viewer:  
-https://github.com/hjacobs/kube-ops-view
+[github](https://github.com/hjacobs/kube-ops-view)
 
 - Set dep image
 `kubectl set image deployment/nginx nginx=nginx:1.9.1`
@@ -94,8 +94,13 @@ https://github.com/hjacobs/kube-ops-view
 
 ### Bot:
 
-=> NOTE: Add channel in DB  
+=> Add channel in DB  
+=> Add audio managment  
 
 ### RethinkDB:
-=> TODO: secu: auth key  
-=> Config retry when conn fail
+=> secu: auth key  
+=> Config retry when conn fail  
+
+## Source
+
+https://github.com/tensor-programming/docker_grpc_chat_tutorial
