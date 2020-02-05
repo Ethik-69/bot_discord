@@ -6,3 +6,4 @@ app/config.json
 todo
 bot_discord.txt
 deploy_docker.sh
+app_bot/config.json

@@ -19,12 +19,13 @@ docker run --name main_bot -d ethik69/bot_discord:latest
 
 ## Docker
 
+[Docker cmd line ref](https://docs.docker.com/engine/reference/commandline/logs/)  
+
 `docker build -t ethik69/bot_discord:0.1 .`
 `docker push ethik69/bot_discord:tagname`
 `for i in $(docker ps -a | awk 'NR != 1 {print $1}'); do docker stop $i && docker rm $i; done`
 `for i in $(docker images | awk 'NR != 1 {print $3}'); do docker rmi $i; done`
 
-[Docker cmd line ref](https://docs.docker.com/engine/reference/commandline/logs/)  
 `docker logs {container_id} --tail=all -f`
 
 ## gRPC
@@ -103,4 +104,8 @@ docker run --name main_bot -d ethik69/bot_discord:latest
 
 ## Source
 
+https://discordapp.com/developers/docs/game-sdk/sdk-starter-guide
+
 https://github.com/tensor-programming/docker_grpc_chat_tutorial
+
+[cogs](https://gist.github.com/leovoel/46cd89ed6a8f41fd09c5)
