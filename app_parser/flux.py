@@ -24,15 +24,11 @@ class Flux:
         # Initialise logger
         self.logger = logging.getLogger('discord')
         self.logger.setLevel(logging.DEBUG)
-        handler = logging.FileHandler(
-            filename='log/flux.log',
-            encoding='utf-8',
-            mode='w'
-        )
+        handler = logging.StreamHandler()
 
         handler.setFormatter(
             logging.Formatter(
-                '%(asctime)s:%(levelname)s:%(name)s: %(message)s'
+                '%(asctime)s:%(filename)s:%(name)s:%(lineno)d:%(levelname)s:%(message)s'
             )
         )
 
@@ -99,12 +95,15 @@ class Flux:
                                 "title": entrie["title"],
                                 "link": entrie["link"],
                                 "summary": entrie["summary"],
-                                "timestamp": round(time.time())
+                                "timestamp": round(time.time()),
+                                "channel_id": site["channel_id"],
+                                "site_name": site["site_name"]
                             }
                         ).run(self.connection)
 
             self.remove_old_article()
-            time.sleep(3600)
+            self.logger.info("[*] Wait for x secs")
+            time.sleep(1800)
 
     def remove_old_article(self):
         """ Remove from DB articles older than x """

@@ -109,3 +109,4 @@ https://discordapp.com/developers/docs/game-sdk/sdk-starter-guide
 https://github.com/tensor-programming/docker_grpc_chat_tutorial
 
 [cogs](https://gist.github.com/leovoel/46cd89ed6a8f41fd09c5)
+[admin_portal](https://discordapp.com/developers/applications/)

@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: feed-checker-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: feed-checker-app
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: feed-checker-app
+    spec:
+      serviceAccountName: builder-docker
+      containers:
+      - name: feed-checker-container
+        image: ethik69/feed_checker:latest
+        imagePullPolicy: Always

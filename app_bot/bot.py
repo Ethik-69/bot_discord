@@ -16,19 +16,15 @@ from rethinkdb.errors import RqlRuntimeError, RqlDriverError
 # Initialise logger
 logger = logging.getLogger('discord')
 logger.setLevel(logging.DEBUG)
-handler = logging.FileHandler(
-    filename='log/main.log',
-    encoding='utf-8',
-    mode='w'
-)
+log_handler = logging.StreamHandler()
 
-handler.setFormatter(
+log_handler.setFormatter(
     logging.Formatter(
-        '%(asctime)s:%(levelname)s:%(name)s: %(message)s'
+        '%(asctime)s:%(filename)s:%(name)s:%(lineno)d:%(levelname)s:%(message)s'
     )
 )
 
-#logger.addHandler(handler)
+logger.addHandler(log_handler)
 
 
 # Get config from config file
@@ -52,7 +48,7 @@ except RqlDriverError:
 
 # Extension load at startup
 startup_extensions = [
-    #'lib.flux'
+    #lib.feed_checker
 ]
 
 
@@ -200,6 +196,7 @@ async def add_site(context, site_name, channel_name, url):
                 {
                     "site_name": site_name,
                     "channel_name": channel_name,
+                    "channel_id": channel.id,
                     "rss_url": url
                 }
             ).run(connection)
@@ -269,16 +266,6 @@ async def remove_all_articles(context):
 
     logger.info("[*] Remove all articles.")
     article_table_name = config["data_base"]['article_table_name']
-
-    try:
-        connection = rdb.connect(
-            host=config["data_base"]['host'],
-            port=config["data_base"]['port'],
-            db=db_name
-        )
-
-    except RqlDriverError:
-        logger.exception("No database connection could be established.")
 
     result = list(rdb.db(db_name).table(article_table_name).run(connection))
 
